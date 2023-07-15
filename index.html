@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Currency Converter</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Currency Converter</h1>
+  
+  <label for="fromCurrency">From Currency:</label>
+  <select id="fromCurrency">
+    <option value="USD">US Dollar (USD)</option>
+    <option value="EUR">Euro (EUR)</option>
+    <option value="GBP">British Pound (GBP)</option>
+    <option value="JPY">Japanese Yen (JPY)</option>
+    <option value="AUD">Australian Dollar (AUD)</option>
+    <option value="CAD">Canadian Dollar (CAD)</option>
+    <option value="TRY">Turkish Lira (TRY)</option>
+    <!-- Add other currencies you want to convert from here -->
+  </select>
+  
+  <label for="toCurrency">To Currency:</label>
+  <select id="toCurrency">
+    <option value="USD">US Dollar (USD)</option>
+    <option value="EUR">Euro (EUR)</option>
+    <option value="GBP">British Pound (GBP)</option>
+    <option value="JPY">Japanese Yen (JPY)</option>
+    <option value="AUD">Australian Dollar (AUD)</option>
+    <option value="CAD">Canadian Dollar (CAD)</option>
+    <option value="TRY">Turkish Lira (TRY)</option>
+    <!-- Add other currencies you want to convert to here -->
+  </select>
+  
+  <button onclick="convertCurrency()">Convert</button>
+  
+  <div id="result"></div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
